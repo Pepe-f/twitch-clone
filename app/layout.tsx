@@ -27,7 +27,7 @@ export default function RootLayout({
             forcedTheme="dark"
             storageKey="twitch-clone-theme"
           >
-            <Toaster theme="light" position="bottom-center" />
+            <Toaster theme="dark" position="bottom-center" />
             {children}
           </ThemeProvider>
         </body>
